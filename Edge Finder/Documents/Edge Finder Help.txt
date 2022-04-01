@@ -1,0 +1,22 @@
+Edge Finder Help
+
+[Description]
+Edge Finder is a program that allows the user to extract contour (edges) information from images. It does this by comparing neighboring pixels. Any color difference between two pixels above a specific threshold is considered to be an edge point. Once an image has been completely scanned, all edge points are grouped by whether or not they are neighbors. Edges are groups of neighboring edge points.
+
+[Commands]
+Key:		Mouse:		Function (edges):
+Down arrow	n/a		Selects the next edge.
+End		n/a		Selects the last edge.
+Home		n/a		Selects the first edge.
+Shift		Left button	Searches the selected image area for edges.
+Up arrow	n/a		Selects the previous edge.
+
+Notes:
+-All commands that are not listed can be found in the pull down menus.
+-Edge source images can be loaded by dragging them into the program window.
+ -Different types of images require different color processing settings.
+-Edges are indexed by their similarity when sorting.
+ -The points inside an edge can either be compared by their absolute positions in the source image or their positions inside their their respective edge rectangles.
+ -The rectangular area covered by an edge can be taken into account or ignored. 
+-Edges can be moved by selecting an edge followed by double clicking the target area.
+ -When moving an edge, the position should be specified as that of the upperleft corner of an imaginary rectangle surrounding it. The same applies to using the mouse when moving an edge.
