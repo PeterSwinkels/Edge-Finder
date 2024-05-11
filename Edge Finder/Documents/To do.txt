@@ -1,0 +1,4 @@
+[Edge Finder]
+1. Try to move all message and input boxes out of non-interface related procedures.
+   -Input can be requested when required from inside the interface class.
+   -Messages can be displayed when required from inside the interface class.
